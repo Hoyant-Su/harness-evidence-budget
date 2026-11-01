@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:18:22.285667423Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/helpers/availableActions.ts:1\",\n          \"evidence_quote\": \"export const availableActions = [\",\n          \"value\": \"single\"\n        },\n        \"D3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/currentTask.ts:1\",\n          \"evidence_quote\": \"export type TaskHistoryEntry = {\",\n          \"value\": \"none\"\n        },\n        \"E1\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/helpers/parseResponse.ts:1\",\n          \"evidence_quote\": \"export type ParsedResponseSuccess = {\",\n          \"value\": \"none\"\n        },\n        \"E3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/helpers/summarizeUserAction.ts:1\",\n          \"evidence_quote\": \"async function mergeUserAction(\",\n          \"value\": \"none\"\n        },\n        \"G2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/currentTask.ts:1\",\n          \"evidence_quote\": \"export type DomElementmetadata = {\",\n          \"value\": \"full\"\n        },\n        \"G3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/currentTask.ts:1\",\n          \"evidence_quote\": \"export type CurrentTaskSlice = {\",\n          \"value\": \"open\"\n        },\n        \"H2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/helpers/summarizeUserAction.ts:1\",\n          \"evidence_quote\": \"async function mergeUserAction(\",\n          \"value\": \"partial\"\n        }\n      },\n      \"record_id\": \"cowpilot\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2871334674,
+  "load_duration": 2893131,
+  "prompt_eval_count": 30931,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 1118892000,
+  "eval_count": 452,
+  "eval_duration": 1456671000
+}

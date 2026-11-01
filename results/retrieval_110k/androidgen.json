@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:17:53.764684068Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [{\"cells\": {\"C3\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"The run.py module is used to run a suite of tasks, with configurable task combinations, environment setups, and agent configurations.\",\"value\": \"single\"}, \"D3\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"The directory to save checkpoints and resume evaluation from. If the directory contains existing checkpoint files, evaluation will resume from the latest checkpoint.\",\"value\": \"checkpoint\"}, \"E1\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"You can run specific tasks or all tasks in the suite and customize various settings using the command-line flags.\",\"value\": \"self_critique\"}, \"E3\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"If the directory contains existing checkpoint files, evaluation will resume from the latest checkpoint.\",\"value\": \"none\"}, \"G2\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"You can run specific tasks or all tasks in the suite and customize various settings using the command-line flags.\",\"value\": \"full\"}, \"G3\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"You can run specific tasks or all tasks in the suite and customize various settings using the command-line flags.\",\"value\": \"open\"}, \"H2\": {\"confidence\": \"high\", \"evidence_locator\": \"evaluate/androidworld/eval.py:1\", \"evidence_quote\": \"You can run specific tasks or all tasks in the suite and customize various settings using the command-line flags.\",\"value\": \"partial\"}},\"record_id\": \"androidgen\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2900138298,
+  "load_duration": 3289354,
+  "prompt_eval_count": 31560,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 1150212000,
+  "eval_count": 433,
+  "eval_duration": 1459588000
+}

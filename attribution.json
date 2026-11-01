@@ -1,0 +1,12 @@
+{
+  "reference": "HARNESS-DB",
+  "author": "Bhaskar Gurram",
+  "repository": "https://github.com/harness-db/harness-db",
+  "revision": "e5f5f6ede8d1d85a8eed1a83098d33b1d5a69fb5",
+  "data_license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "data_use": "The public human audit supplies reference states and values in results/cells.csv. The coding manual and schema supply the model prompt and output checks.",
+  "model": "unsloth/Qwen3.5-2B-GGUF",
+  "model_revision": "f6d5376be1edb4d416d56da11e5397a961aca8ae",
+  "model_file": "Qwen3.5-2B-Q4_K_M.gguf"
+}

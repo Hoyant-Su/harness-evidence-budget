@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:18:00.55567952Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"single\"\n        },\n        \"D3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"none\"\n        },\n        \"E1\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"none\"\n        },\n        \"E3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"none\"\n        },\n        \"G2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"none\"\n        },\n        \"G3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"none\"\n        },\n        \"H2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"docs/content/language-reference/index.md\",\n          \"evidence_quote\": \"Ave is an experimental Pythonic domain-specific language to write performant GPU kernels along with large language models (LLMs).\",\n          \"value\": \"none\"\n        }\n      },\n      \"record_id\": \"ave\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2410255790,
+  "load_duration": 1489410,
+  "prompt_eval_count": 12558,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 433486000,
+  "eval_count": 563,
+  "eval_duration": 1659431000
+}

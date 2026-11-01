@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:18:19.40738449Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"single\"\n        },\n        \"D3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"none\"\n        },\n        \"E1\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"none\"\n        },\n        \"E3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"none\"\n        },\n        \"G2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"full\"\n        },\n        \"G3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"open\"\n        },\n        \"H2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"src/state/settings.ts:12-15\",\n          \"evidence_quote\": \"const settings = { agentType: 'single', enableSubAgents: false, enableDelegation: false, enableHierarchical: false, enableDebate: false, enablePipeline: false };\",\n          \"value\": \"none\"\n        }\n      },\n      \"record_id\": \"cowpilot\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2550906115,
+  "load_duration": 3741403,
+  "prompt_eval_count": 7822,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 227656000,
+  "eval_count": 691,
+  "eval_duration": 1983695000
+}

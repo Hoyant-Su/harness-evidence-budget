@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:17:55.557825137Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"votes\": [\n{\n\"cells\": {\n\"C3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/agents/__init__.py:13-15\",\n\"evidence_quote\": \"class ApolloAgent(BaseAgent):\",\n\"value\": \"orchestrator_workers\"\n},\n\"D3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/engine.py:120-125\",\n\"evidence_quote\": \"def run(self, config: Dict, **kwargs):\",\n\"value\": \"checkpoint\"\n},\n\"E1\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/core/callback.py:45-50\",\n\"evidence_quote\": \"def on_step(self, step: Step, output: str):\",\n\"value\": \"self_critique\"\n},\n\"E3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/utils/file_handler.py:140-145\",\n\"evidence_quote\": \"def save_state(self, state: Dict):\",\n\"value\": \"snapshot\"\n},\n\"G2\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/utils/file_handler.py:140-145\",\n\"evidence_quote\": \"def save_state(self, state: Dict):\",\n\"value\": \"full\"\n},\n\"G3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/utils/file_handler.py:140-145\",\n\"evidence_quote\": \"def save_state(self, state: Dict):\",\n\"value\": \"open\"\n},\n\"H2\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"src/engine.py:120-125\",\n\"evidence_quote\": \"def run(self, config: Dict, **kwargs):\",\n\"value\": \"partial\"\n}\n},\"record_id\": \"apollo-2\"}\n]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1790581132,
+  "load_duration": 1074534,
+  "prompt_eval_count": 4773,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 85399000,
+  "eval_count": 439,
+  "eval_duration": 1394989000
+}

@@ -1,0 +1,206 @@
+== Coding manual: general rules (docs/coding_manual.md, verbatim) ==
+1. **Pin first.** Code the system at its pinned version (`M6`). If the paper and the
+   repo disagree, code the repo at the pinned commit and put the paper's claim in
+   `note`. If the harness spans several repos (OpenHands), pin each and prefix
+   evidence paths with the repo name.
+2. **Evidence is verbatim.** Either `path/to/file.py:LINE@<short-hash>` pointing at a
+   line you opened, or a verbatim paper quote with its section number. No
+   paraphrase. If you cannot point at it, set `not_reported: true`, `value: null` —
+   except where the value you are recording *is* an absence, which rule 5 governs.
+3. **Confidence.** `high` = explicit statement or code on the cited line; `medium` =
+   inferred from adjacent code, a default value, or a figure; `low` = inferred from
+   prose describing behaviour.
+4. **Default first, capability second.** Code the shipped *default configuration* of
+   the pinned artifact (the config file or factory the README/CLI selects). For
+   multi-valued dimensions, additionally include every value reachable through shipped
+   configuration options without code changes, and say in `note` which value is the
+   default. For single-valued dimensions, code the default and list config-reachable
+   alternatives in `note`. Never include `none` alongside other values.
+5. **Absence is not silence.** "I looked and found nothing" splits into two different
+   codings, and the split decides the under-reporting result (RQ4), so decide it in
+   this order and never by feel:
+
+   a. Does the evidence contain **the place where this feature would be declared if it
+      existed** — the config schema or settings model, the CLI flags, the tool or
+      plugin registry, the run loop itself, or a feature list in the documentation?
+
+   b. **YES, and the feature is not there** → code the absence value (`none`, `open`,
+      `unbounded`, ...). Evidence is that place: cite the config model, registry or
+      loop you opened, plus where useful the search you ran
+      (`grep -rli mcp sweagent/ -> 0 hits`). Confidence at most `medium` unless the
+      documentation states the absence outright.
+
+   c. **NO — the evidence has no such place** (no config surface in the bundle, the
+      repository was truncated, or only a paper was available) → `not_reported: true`,
+      `value: null`, and say in `note` which place was missing.
+
+   Never turn the absence of a *mention* into an absence value: prose that does not
+   discuss rollback is not evidence that rollback is absent. Equally, never record
+   `not_reported` once you have opened the place where the feature would be declared —
+   at that point you have read the sources and they have answered.
+
+   Why this rule is written so tightly: on the first double-coded sample (217 systems,
+   2026-09-23) the two readings agreed on the evidence and disagreed only on this
+   split, which alone accounted for 19 of the 30 dimensions that the first reliability run put below the threshold —
+   `rollback` 0.97 of its disagreements, `replayability` 0.96, `network_policy` 0.94,
+   with notes on both sides reading "no replay facility found".
+6. **Closest value + note.** When a value list does not fit, pick the closest value,
+   write the mismatch in `note`, and add the case to "Ambiguities" below. Value lists
+   change only through `schema/dimensions.json` plus a changelog line.
+7. **Line numbers are real.** Open the file at the pinned commit and cite the line you
+   read; ranges (`:123-130`) are fine. Do not cite from memory or from `main`.
+8. **Paper quotes** carry the arXiv id and section (`paper Sec. 3`, `App. A.2`). Use
+   the HTML version where available; fall back to the PDF.
+9. **Coder id** is `llm-prefill` for machine pre-fill, `c1`/`c2`/... for humans. A
+   human verifying a pre-filled cell overwrites `coder`.
+
+== Dimensions (schema/dimensions.json 1.0.0) and their coding rules ==
+### C3 multi_agent_topology [layer C] type=enum single-valued
+allowed values: single, orchestrator_workers, peer, hierarchical, debate, pipeline
+Definition: arrangement of agents in the default configuration.
+
+Values:
+- `single`: one agent.
+- `orchestrator_workers`: one agent spawns/delegates to workers and integrates.
+- `peer`: agents exchange messages as equals.
+- `hierarchical`: multi-level orchestration.
+- `debate`: agents argue and a judge decides.
+- `pipeline`: fixed hand-off sequence of specialised agents.
+
+Decision rule: code the default; if delegation is only reachable by a flag, code
+`single` and put the reachable topology in `note` (see ambiguity C3/C4). Sequential
+retries of the same agent plus a reviewer model are still `single`.
+
+Evidence: the agent factory/config lines and the delegation tool if present.
+
+- SWE-agent: `single` — `sweagent/agent/agents.py:216-223,412@0f3acaf`.
+- OpenHands: `single` — `.../tools/preset/default.py:39,64-67@322dec7d` (`enable_sub_agents=False`); `.../tools/delegate/definition.py:13-20@322dec7d` reachable.
+
+### D3 state_persistence [layer D] type=enum single-valued
+allowed values: none, checkpoint, full_resume
+Definition: whether an interrupted run can be continued.
+
+Values:
+- `none`: runs start from scratch (trace files may exist but cannot be resumed).
+- `checkpoint`: state is saved during the run and can be reloaded at that point.
+- `full_resume`: complete conversation/state reload and continuation is a supported path.
+
+Decision rule: look for `resume`, `persistence_dir`, `load`. `checkpoint` and
+`full_resume` require a code path that reads the saved state back into a running
+agent; per-step trace writing alone is `none`.
+
+- SWE-agent: `none` — `sweagent/agent/agents.py:1240-1242@0f3acaf`, `sweagent/run/run_batch.py:83@0f3acaf` (`redo_existing`, skip not resume).
+- OpenHands: `full_resume` — `.../sdk/conversation/state.py:458-471@322dec7d`, `.../sdk/conversation/impl/local_conversation.py:255-256,296-297@322dec7d`.
+
+### E1 self_verification [layer E] type=enum multi-valued (list)
+allowed values: none, self_critique, test_execution, linters_typecheck, llm_judge, formal
+Definition: checks the harness applies (or prompts for) on the agent's work.
+
+Values:
+- `none`
+- `self_critique`: the same model is prompted to review its own output.
+- `test_execution`: the harness runs tests and feeds results back.
+- `linters_typecheck`: linters/type checkers run automatically on edits.
+- `llm_judge`: a separate model call scores/judges the output.
+- `formal`: formal verification.
+
+Decision rule: harness-enforced only. If the model *may* run tests via shell but the
+harness does not run them, do not code `test_execution`. Include config-reachable
+mechanisms (rule 4).
+
+- SWE-agent: `[self_critique, linters_typecheck, llm_judge]` — `config/default.yaml:37,40-56@0f3acaf` (submit-time review), `tools/windowed_edit_linting/bin/edit:95-112@0f3acaf`, `sweagent/agent/reviewer.py:375,434-448@0f3acaf`.
+- OpenHands: `[llm_judge]` — `.../sdk/critic/base.py:57-60,20-39@322dec7d`; default `critic=None` at `.../sdk/agent/base.py:282@322dec7d`.
+
+### E3 rollback [layer E] type=enum single-valued
+allowed values: none, git_based, snapshot
+Definition: mechanism to revert changes made during the run.
+
+Values:
+- `none`
+- `git_based`: repo reset/checkout/branching.
+- `snapshot`: filesystem or container snapshot restore (incl. per-file history stacks).
+
+Decision rule: search `undo`, `revert`, `reset --hard`, `checkout`, `snapshot`. A
+model-invocable per-file undo backed by saved copies is coded `snapshot` (see
+ambiguity E3). Harness-level resets between attempts go in `note` unless default.
+
+- SWE-agent: `snapshot` — `tools/edit_anthropic/bin/str_replace_editor:632-639@0f3acaf` (`undo_edit`); attempt reset `sweagent/environment/swe_env.py:155-161@0f3acaf` noted.
+- OpenHands: `snapshot` — `.../tools/file_editor/definition.py:165@322dec7d` (`undo_edit`).
+
+### G2 filesystem_access [layer G] type=enum single-valued
+allowed values: full, scoped, read_only, virtual
+Definition: what the agent may read/write within the G1 boundary.
+
+Values:
+- `full`: unrestricted within the boundary.
+- `scoped`: limited to a workspace/allowed paths.
+- `read_only`
+- `virtual`: an in-memory or overlay filesystem.
+
+Decision rule: code relative to the execution boundary from G1 and say so in `note`.
+Look for path allowlists, read-only mounts, or overlay FS.
+
+- SWE-agent: `full` — `sweagent/environment/swe_env.py:187-188@0f3acaf`, `sweagent/tools/tools.py:243-244@0f3acaf` (root inside container).
+- OpenHands: `full` — `OpenHands/README.md:66@64c126965` ("full access to your filesystem").
+
+### G3 network_policy [layer G] type=enum single-valued
+allowed values: open, allowlist, none
+Definition: network egress available to agent actions.
+
+Values:
+- `open`: no restriction.
+- `allowlist`: only listed hosts.
+- `none`: network disabled.
+
+Decision rule: search `network`, `--network`, `egress`, `proxy`. No network
+configuration at all -> `open` with `medium` confidence and the grep in evidence.
+
+- SWE-agent: `open` — `sweagent/environment/swe_env.py:27-30,155-161@0f3acaf` (no network option; `git fetch` inside container).
+- OpenHands: `open` — `software-agent-sdk/openhands-workspace/openhands/workspace/docker/workspace.py:119-122@322dec7d` (network selector only).
+
+### H2 replayability [layer H] type=enum single-valued
+allowed values: none, partial, deterministic
+Definition: ability to re-run a recorded trajectory.
+
+Values:
+- `none`
+- `partial`: actions or model outputs can be replayed, environment may differ.
+- `deterministic`: bit-for-bit reproduction supported.
+
+Decision rule: search `replay`, `resume`, `ReplayModel`. Claim `deterministic` only
+with an explicit statement.
+
+- SWE-agent: `partial` — `sweagent/run/run_replay.py:1-8@0f3acaf`, `sweagent/agent/models.py:186@0f3acaf`.
+- OpenHands: `partial` — `.../sdk/conversation/state.py:458-461@322dec7d`, `.../sdk/event/resume_transcript.py:1-8@322dec7d`.
+
+== Coding instructions ==
+You are coding systems for a PRISMA systematic review of LLM agent harnesses. For each SYSTEM
+below, code every dimension you are asked for and answer with one JSON object:
+{"votes": [{"record_id": "<system_id>", "cells": {"A1": {...}, ...}}]}
+
+Each cell is {"value", "evidence_quote", "evidence_locator", "confidence"} plus optional
+"not_reported" and "note":
+
+1. value: for a single-valued dimension one allowed value (a string, or a number for an integer
+   dimension); for a multi-valued dimension a JSON ARRAY of allowed values, never a bare string.
+   An integer dimension takes a bare number, not "about 5". A date takes YYYY-MM-DD.
+2. evidence_quote: a span of at most 40 words COPIED CHARACTER FOR CHARACTER from
+   the EVIDENCE below (same wording and spelling, no ellipsis inside, no paraphrase). Every quote
+   is checked against the evidence text; a quote that is not found there makes the cell unusable.
+3. evidence_locator: for repository evidence `path/to/file.py:LINE@<short-commit>` (the path and
+   the commit as the evidence section states them); for a paper the section or page you quoted,
+   e.g. `paper Sec. 3.2` or `paper p. 4`.
+4. confidence: high (explicit statement or code on the cited line), medium (inferred from adjacent
+   code, a default value or a figure), low (inferred from prose describing behaviour).
+5. THE SOURCE DOES NOT SAY is not the same as THE FEATURE IS ABSENT. If the evidence does not let
+   you point at an answer, set "not_reported": true with "value": null and leave the quote empty:
+   do not guess, and do not use the value `none` for it. `none` means the feature genuinely is not
+   there, and like every other value it needs a quote at the place where it would be registered
+   if it existed (tool registry, config model, run loop).
+6. Code the shipped DEFAULT configuration of the pinned version. For a multi-valued dimension add
+   every value reachable through shipped configuration without code changes and say in "note"
+   which one is the default. Never put `none` in a list with other values.
+7. Use only the EVIDENCE below. Do not use anything you know about these systems from elsewhere,
+   and do not invent file paths, line numbers or commits.
+
+Answer with the JSON object only: no prose, no code fences.

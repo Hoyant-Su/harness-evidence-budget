@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:18:34.692600357Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"orchestrator_workers\"\n        },\n        \"D3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"checkpoint\"\n        },\n        \"E1\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"self_critique\"\n        },\n        \"E3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"none\"\n        },\n        \"G2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"full\"\n        },\n        \"G3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"open\"\n        },\n        \"H2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"README.md:13\",\n          \"evidence_quote\": \"Run ICRL preset: python3 sciworld.py icrl_mode=ICRL num_envs=29\",\n          \"value\": \"partial\"\n        }\n      },\n      \"record_id\": \"icrl-prompting\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1993115058,
+  "load_duration": 1936617,
+  "prompt_eval_count": 4339,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 65369000,
+  "eval_count": 544,
+  "eval_duration": 1594582000
+}

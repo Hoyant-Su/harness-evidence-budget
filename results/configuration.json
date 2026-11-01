@@ -1,0 +1,28 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "server": {
+    "version": "0.40.13"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 20261101,
+    "num_ctx": 131072,
+    "num_predict": 2048
+  },
+  "think": false,
+  "dimensions": [
+    "C3",
+    "D3",
+    "E1",
+    "E3",
+    "G2",
+    "G3",
+    "H2"
+  ],
+  "scope": "repository-only pilot",
+  "conditions": [
+    "collection_110k",
+    "collection_440k",
+    "retrieval_110k"
+  ]
+}

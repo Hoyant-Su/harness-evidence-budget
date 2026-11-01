@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:19:24.49561994Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"moatless/agent/agent.py:216-223,412@0f3acaf\",\n          \"evidence_quote\": \"The agent factory/config lines and the delegation tool if present.\",\"value\": \"single\"\n        },\n        \"D3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"sweagent/run/run_batch.py:83@0f3acaf\",\n          \"evidence_quote\": \"redo_existing, skip not resume\", \"value\": \"none\"\n        },\n        \"E1\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config/default.yaml:37,40-56@0f3acaf\",\n          \"evidence_quote\": \"submit-time review\", \"value\": \"self_critique\"\n        },\n        \"E3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"tools/edit_anthropic/bin/str_replace_editor:632-639@0f3acaf\",\n          \"evidence_quote\": \"undo_edit\", \"value\": \"snapshot\"\n        },\n        \"G2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"sweagent/environment/swe_env.py:187-188@0f3acaf\",\n          \"evidence_quote\": \"root inside container\", \"value\": \"full\"\n        },\n        \"G3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"sweagent/environment/swe_env.py:27-30,155-161@0f3acaf\",\n          \"evidence_quote\": \"git fetch inside container\", \"value\": \"open\"\n        },\n        \"H2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"sweagent/run/run_replay.py:1-8@0f3acaf\",\n          \"evidence_quote\": \"run_replay\", \"value\": \"partial\"\n        }\n      },\n      \"record_id\": \"swe-search\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2692784572,
+  "load_duration": 2786888,
+  "prompt_eval_count": 18609,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 624351000,
+  "eval_count": 520,
+  "eval_duration": 1667007000
+}

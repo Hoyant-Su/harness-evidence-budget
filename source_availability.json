@@ -1,0 +1,19 @@
+{
+  "audit_systems": 50,
+  "systems_with_repository": 27,
+  "collected_repositories": 25,
+  "unavailable_repositories": [
+    {
+      "system_id": "sandboxsocial",
+      "repo": "sandbox-social/silisocs",
+      "status": 422,
+      "pin": "37f488f85ea4299b5fbfe7597ba283502187b921"
+    },
+    {
+      "system_id": "pybench-reference-agent",
+      "repo": "mercury7353/pybench",
+      "commit": "fa90fae282a23cb38279c2d5074ccaf2062629bf",
+      "status": "source_archive_exceeds_100_MB"
+    }
+  ]
+}

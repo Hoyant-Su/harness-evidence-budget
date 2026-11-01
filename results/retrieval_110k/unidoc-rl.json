@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:19:52.955130483Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"votes\": [\n  {\n    \"cells\": {\n      \"C3\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"UniDoc-RL is a unified reinforcement learning framework for visual document RAG, where an LVLM agent jointly performs retrieval, reranking, active visual perception, and reasoning within a single decision process.\",\"value\": \"orchestrator_workers\"\n      },\n      \"D3\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"UniDoc-RL trains against a retrieval environment built on document page images.\", \"value\": \"none\"\n      },\n      \"E1\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"UniDoc-RL emphasizes two key properties of UniDoc-RL: progressive evidence acquisition and region-grounded interaction.\", \"value\": \"none\"\n      },\n      \"E3\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"The agent first searches over page images, then selects the most informative visual evidence, and finally performs targeted crop-and-zoom operations when the answer depends on local fine-grained content.\", \"value\": \"none\"\n      },\n      \"G2\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"UniDoc-RL is a unified reinforcement learning framework for visual document RAG, where an LVLM agent jointly performs retrieval, reranking, active visual perception, and reasoning within a single decision process.\", \"value\": \"full\"\n      },\n      \"G3\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"UniDoc-RL is a unified reinforcement learning framework for visual document RAG, where an LVLM agent jointly performs retrieval, reranking, active visual perception, and reasoning within a single decision process.\", \"value\": \"open\"\n      },\n      \"H2\": {\n        \"confidence\": \"high\",\n        \"evidence_locator\": \"README.md:1\",\n        \"evidence_quote\": \"UniDoc-RL trains against a retrieval environment built on document page images.\", \"value\": \"partial\"\n      }\n    },\n    \"record_id\": \"unidoc-rl\"\n  }\n]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3311470742,
+  "load_duration": 2716779,
+  "prompt_eval_count": 28505,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 1001849000,
+  "eval_count": 566,
+  "eval_duration": 1899706000
+}

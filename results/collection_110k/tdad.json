@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:19:42.561325047Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [{\"cells\": {\"C3\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_visible/core/{spec}/*.py \u2014 Visible tests (used during compilation)\",\"value\": \"single\"}, \"D3\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_hidden/core/{spec}/*.py \u2014 Hidden tests (held out for HPR metric)\",\"value\": \"none\"}, \"E1\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_visible/core/{spec}/*.py \u2014 Visible tests (used during compilation)\",\"value\": \"test_execution\"}, \"E3\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_hidden/core/{spec}/*.py \u2014 Hidden tests (held out for HPR metric)\",\"value\": \"none\"}, \"G2\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_visible/core/{spec}/*.py \u2014 Visible tests (used during compilation)\",\"value\": \"full\"}, \"G3\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_visible/core/{spec}/*.py \u2014 Visible tests (used during compilation)\",\"value\": \"open\"}, \"H2\": {\"confidence\": \"high\", \"evidence_locator\": \"README.md:Key directories\", \"evidence_quote\": \"tests_hidden/core/{spec}/*.py \u2014 Hidden tests (held out for HPR metric)\",\"value\": \"none\"}},\"record_id\": \"tdad\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2153345083,
+  "load_duration": 1642249,
+  "prompt_eval_count": 13747,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 478082000,
+  "eval_count": 381,
+  "eval_duration": 1319889000
+}

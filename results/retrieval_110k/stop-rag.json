@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:19:21.799802219Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\"votes\":[{\"cells\":{\"C3\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"single\"},\"D3\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"none\"},\"E1\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"[self_critique, linters_typecheck, llm_judge]\"},\"E3\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"snapshot\"},\"G2\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"full\"},\"G3\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"open\"},\"H2\":{\"confidence\":\"high\",\"evidence_locator\":\"src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt:1\",\"evidence_quote\":\"# METADATA: {\",\"value\":\"partial\"}},\"record_id\":\"stop-rag\"}]}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2894438406,
+  "load_duration": 3451716,
+  "prompt_eval_count": 30348,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 1074629000,
+  "eval_count": 407,
+  "eval_duration": 1518228000
+}

@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:18:55.481763297Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"votes\": [\n{\n\"cells\": {\n\"C3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"sweagent/agent/agents.py:216-223,412@0f3acaf\",\n\"evidence_quote\": \"single\",\n\"value\": \"single\"\n},\n\"D3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"sweagent/run/run_batch.py:83@0f3acaf\",\n\"evidence_quote\": \"redo_existing\",\n\"value\": \"none\"\n},\n\"E1\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"config/default.yaml:37,40-56@0f3acaf\",\n\"evidence_quote\": \"submit-time review\",\n\"value\": \"self_critique\"\n},\n\"E3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"tools/edit_anthropic/bin/str_replace_editor:632-639@0f3acaf\",\n\"evidence_quote\": \"undo_edit\",\n\"value\": \"snapshot\"\n},\n\"G2\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"sweagent/environment/swe_env.py:187-188@0f3acaf\",\n\"evidence_quote\": \"root inside container\",\n\"value\": \"full\"\n},\n\"G3\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"sweagent/environment/swe_env.py:27-30,155-161@0f3acaf\",\n\"evidence_quote\": \"git fetch\",\n\"value\": \"open\"\n},\n\"H2\": {\n\"confidence\": \"high\",\n\"evidence_locator\": \"sweagent/run/run_replay.py:1-8@0f3acaf\",\n\"evidence_quote\": \"run_replay\",\n\"value\": \"partial\"\n}\n},\n\"record_id\": \"mdcrow\"\n}\n]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3630502622,
+  "load_duration": 3062163,
+  "prompt_eval_count": 39926,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 1527256000,
+  "eval_count": 456,
+  "eval_duration": 1723585000
+}

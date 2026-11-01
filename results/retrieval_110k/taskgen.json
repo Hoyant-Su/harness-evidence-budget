@@ -1,0 +1,17 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:19:40.404606361Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"sweagent/agent/agents.py:216-223,412@0f3acaf\",\n          \"evidence_quote\": \"The default configuration for the agent factory is single agent with no delegation to workers or sub-agents.\",\"value\": \"single\"},\n          \"D3\": {\n            \"confidence\": \"high\",\n            \"evidence_locator\": \"sweagent/agent/agents.py:1240-1242@0f3acaf\",\n            \"evidence_quote\": \"The default configuration is none, meaning runs start from scratch and cannot be resumed.\",\"value\": \"none\"},\n          \"E1\": {\n            \"confidence\": \"high\",\n            \"evidence_locator\": \"config/default.yaml:37,40-56@0f3acaf\",\n            \"evidence_quote\": \"The harness enforces self_critique, linters_typecheck, and llm_judge checks on the agent's work.\",\"value\": \"[self_critique, linters_typecheck, llm_judge]\"},\n          \"E3\": {\n            \"confidence\": \"high\",\n            \"evidence_locator\": \"tools/edit_anthropic/bin/str_replace_editor:632-639@0f3acaf\",\n            \"evidence_quote\": \"The default mechanism is snapshot, allowing for undo_edit functionality and per-file history stacks.\",\"value\": \"snapshot\"},\n          \"G2\": {\n            \"confidence\": \"high\",\n            \"evidence_locator\": \"sweagent/environment/swe_env.py:187-188@0f3acaf\",\n            \"evidence_quote\": \"The agent has full access to the filesystem within the execution boundary.\",\"value\": \"full\"},\n          \"G3\": {\n            \"confidence\": \"high\",\n            \"evidence_locator\": \"sweagent/environment/swe_env.py:27-30,155-161@0f3acaf\",\n            \"evidence_quote\": \"There is no network configuration or egress proxy; network is open.\",\"value\": \"open\"},\n          \"H2\": {\n            \"confidence\": \"high\",\n            \"evidence_locator\": \"sweagent/run/run_replay.py:1-8@0f3acaf\",\n            \"evidence_quote\": \"The default configuration is partial, allowing for replay of actions but with potential environment differences.\",\"value\": \"partial\"}\n        },\n        \"record_id\": \"taskgen\"\n      }\n    ]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3566131389,
+  "load_duration": 2863764,
+  "prompt_eval_count": 30435,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 1119464000,
+  "eval_count": 602,
+  "eval_duration": 2130820000
+}

@@ -1,0 +1,43 @@
+{
+  "systems": 25,
+  "dimensions_per_system": 7,
+  "larger_budget_changes_input": 0,
+  "methods": {
+    "collection_110k": {
+      "cells": 175,
+      "exact_agreement": 34,
+      "coded": 86,
+      "not_reported": 0,
+      "unresolved": 89,
+      "quotes_present": 175,
+      "valid_quotes": 104
+    },
+    "collection_440k": {
+      "cells": 175,
+      "exact_agreement": 34,
+      "coded": 86,
+      "not_reported": 0,
+      "unresolved": 89,
+      "quotes_present": 175,
+      "valid_quotes": 104
+    },
+    "retrieval_110k": {
+      "cells": 175,
+      "exact_agreement": 38,
+      "coded": 85,
+      "not_reported": 0,
+      "unresolved": 90,
+      "quotes_present": 175,
+      "valid_quotes": 101
+    }
+  },
+  "retrieval_minus_collection": {
+    "difference": 0.022857142857142857,
+    "system_bootstrap_95_interval": [
+      -0.08571428571428572,
+      0.13714285714285712
+    ],
+    "resamples": 10000,
+    "seed": 20261101
+  }
+}

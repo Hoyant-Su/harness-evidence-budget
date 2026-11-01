@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+sources/
+bundles/
+*.gguf
+rerun-results/

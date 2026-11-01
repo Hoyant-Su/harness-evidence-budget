@@ -1,0 +1,2343 @@
+[
+  {
+    "system_id": "a-evolve",
+    "repo": "a-evo-lab/a-evolve",
+    "commit": "c291a3eec4fe0af91278c0b6586b8d11685abd80",
+    "source_files": 164,
+    "baseline_selected_files": [
+      "agent_evolve/agents/mcp/agent.py",
+      "agent_evolve/engine/loop.py",
+      "agent_evolve/agents/mcp/code_executor.py",
+      "agent_evolve/config.py",
+      "agent_evolve/agents/swe/agent.py",
+      "agent_evolve/agents/skillbench/loop.py",
+      "agent_evolve/agents/terminal/agent.py",
+      "agent_evolve/agents/skillbench/agent.py"
+    ],
+    "characters": {
+      "collection_110k": 94837,
+      "collection_440k": 94837,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "docs/algorithms/skillforge.md",
+        "line": 401,
+        "characters": 5249
+      },
+      {
+        "path": "docs/algorithms/skillforge.md",
+        "line": 1,
+        "characters": 8953
+      },
+      {
+        "path": "docs/algorithms/adaptive-evolve.md",
+        "line": 1,
+        "characters": 9480
+      },
+      {
+        "path": "agent_evolve/engine/versioning.py",
+        "line": 1,
+        "characters": 3943
+      },
+      {
+        "path": "agent_evolve/algorithms/skillforge/prompts.py",
+        "line": 401,
+        "characters": 8649
+      },
+      {
+        "path": "agent_evolve/algorithms/guided_synth/engine.py",
+        "line": 1,
+        "characters": 7747
+      },
+      {
+        "path": "agent_evolve/benchmarks/mcp_atlas/mcp_atlas.py",
+        "line": 201,
+        "characters": 8825
+      },
+      {
+        "path": "agent_evolve/algorithms/adaptive_evolve/README.md",
+        "line": 1,
+        "characters": 9495
+      },
+      {
+        "path": "agent_evolve/algorithms/adaptive_skill/prompts.py",
+        "line": 401,
+        "characters": 9740
+      },
+      {
+        "path": "agent_evolve/agents/swe/agent.py",
+        "line": 201,
+        "characters": 10841
+      },
+      {
+        "path": "docs/algorithms/adaptive-skill.md",
+        "line": 1,
+        "characters": 8333
+      },
+      {
+        "path": "agent_evolve/agents/swe/agent.py",
+        "line": 401,
+        "characters": 9901
+      },
+      {
+        "path": "docs/algorithms/guided-synth.md",
+        "line": 1,
+        "characters": 6130
+      },
+      {
+        "path": "agent_evolve/agents/terminal/react_solver.py",
+        "line": 1,
+        "characters": 2624
+      }
+    ],
+    "collection_metadata": {
+      "full": "a-evo-lab/a-evolve",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "c291a3eec4fe0af91278c0b6586b8d11685abd80",
+      "ref_date": "2026-04-02"
+    },
+    "fetched_at": "2026-11-01T03:14:45Z"
+  },
+  {
+    "system_id": "agent-factory",
+    "repo": "zzatpku/agentfactory",
+    "commit": "df92287894ab7bc9cdfecbd469f4b8a2f4a27616",
+    "source_files": 58,
+    "baseline_selected_files": [
+      "meta_agent.py"
+    ],
+    "characters": {
+      "collection_110k": 22658,
+      "collection_440k": 22658,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "trajectory/readme/second_time.json",
+        "line": 201,
+        "characters": 41996
+      },
+      {
+        "path": "trajectory/readme/first_time.json",
+        "line": 1,
+        "characters": 67907
+      }
+    ],
+    "collection_metadata": {
+      "full": "zzatpku/agentfactory",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "df92287894ab7bc9cdfecbd469f4b8a2f4a27616",
+      "ref_date": "2026-07-10"
+    },
+    "fetched_at": "2026-11-01T03:15:22Z"
+  },
+  {
+    "system_id": "agentic-additive-manufacturing-alloy-evaluation",
+    "repo": "baratilab/agentic-additive-manufacturing-alloy-evaluation",
+    "commit": "5078346a56645d423eadc2f10e0fb3a749355b86",
+    "source_files": 428,
+    "baseline_selected_files": [
+      "results/unknown_alloys/Al99Cu1/process_maps/default/config.json",
+      "results/unknown_alloys/IN625_no_Mo/process_maps/default/config.json",
+      "results/known_alloys/iron_process_map/process_maps/iron_map/config.json",
+      "results/unknown_alloys/Ti6Al/process_maps/Ti6Al_process_map/config.json",
+      "results/unknown_alloys/Fe95Cr5/process_maps/Fe95Cr5_processmap/config.json",
+      "results/known_alloys/copper_process_map/process_maps/copper_map/config.json",
+      "results/unknown_alloys/Fe99C1_printability/process_maps/default/config.json",
+      "results/known_alloys/K500_process_map/process_maps/K500_process_map/config.json"
+    ],
+    "characters": {
+      "collection_110k": 76065,
+      "collection_440k": 76065,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": ".gitignore",
+        "line": 1,
+        "characters": 4619
+      },
+      {
+        "path": "LICENSE",
+        "line": 1,
+        "characters": 1081
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 2821
+      },
+      {
+        "path": "main.py",
+        "line": 1,
+        "characters": 2462
+      },
+      {
+        "path": "images/figures/keyhole_conduction_mode_boundary/keyhole_conduction_mode_regions.ipynb",
+        "line": 201,
+        "characters": 4043
+      },
+      {
+        "path": "pyproject.toml",
+        "line": 1,
+        "characters": 620
+      },
+      {
+        "path": "results/unknown_alloys/Fe99C1_analysis/configs/mesh_parameters/default.json",
+        "line": 1,
+        "characters": 1357
+      },
+      {
+        "path": "images/figures/keyhole_conduction_mode_boundary/keyhole_conduction_mode_regions.ipynb",
+        "line": 1,
+        "characters": 92829
+      }
+    ],
+    "collection_metadata": {
+      "full": "baratilab/agentic-additive-manufacturing-alloy-evaluation",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "5078346a56645d423eadc2f10e0fb3a749355b86",
+      "ref_date": "2026-01-20"
+    },
+    "fetched_at": "2026-11-01T03:15:19Z"
+  },
+  {
+    "system_id": "agentverse",
+    "repo": "openbmb/agentverse",
+    "commit": "c9c0dbeea3767f6ae938294a859c6367970a1641",
+    "source_files": 4400,
+    "baseline_selected_files": [
+      "ui/src/phaser3-rex-plugins/plugins/graph/graph/edge/IsInLoop.js",
+      "ui/src/phaser3-rex-plugins/plugins/logic/behaviortree/nodes/actions/Runner.js",
+      "agentverse/agents/tasksolving_agent/executor.py",
+      "agentverse/agents/simulation_agent/tool.py",
+      "agentverse/tasks/simulation/sde_team/sde_team_2players/build_config.py",
+      "ui/src/phaser3-rex-plugins/plugins/logic/runcommands/arcadetcrp/StepRunner.js",
+      "agentverse/environments/tasksolving_env/rules/decision_maker/horizontal_tool.py",
+      "ui/src/phaser3-rex-plugins/templates/ui/utils/GetSizerConfig.js"
+    ],
+    "characters": {
+      "collection_110k": 78107,
+      "collection_440k": 78107,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "README.md",
+        "line": 201,
+        "characters": 7948
+      },
+      {
+        "path": "agentverse/tasks/simulation/sde_team/sde_team_2players/partial_config.yaml",
+        "line": 1,
+        "characters": 6970
+      },
+      {
+        "path": "agentverse/tasks/simulation/sde_team/sde_team_2players/config.yaml",
+        "line": 1,
+        "characters": 11362
+      },
+      {
+        "path": "agentverse/utils/prompts.py",
+        "line": 1,
+        "characters": 11623
+      },
+      {
+        "path": "agentverse/tasks/tasksolving/pythoncalculator/config_html.yaml",
+        "line": 1,
+        "characters": 6186
+      },
+      {
+        "path": "agentverse/simulation.py",
+        "line": 1,
+        "characters": 2147
+      },
+      {
+        "path": "agentverse/tasks/tasksolving/pythoncalculator/config.yaml",
+        "line": 1,
+        "characters": 6524
+      },
+      {
+        "path": "README.md",
+        "line": 401,
+        "characters": 10102
+      },
+      {
+        "path": "agentverse/tasks/tasksolving/tool_using/date/config.yaml",
+        "line": 1,
+        "characters": 8766
+      },
+      {
+        "path": "agentverse/tasks/simulation/pokemon/config.yaml",
+        "line": 1,
+        "characters": 13937
+      },
+      {
+        "path": "agentverse/tasks/tasksolving/logic_grid/gpt-4/config.yaml",
+        "line": 1,
+        "characters": 5325
+      },
+      {
+        "path": "agentverse/tasks/simulation/sde_team/readme.md",
+        "line": 1,
+        "characters": 4944
+      },
+      {
+        "path": "agentverse/tasks/simulation/alice_home/config.yaml",
+        "line": 1,
+        "characters": 6517
+      },
+      {
+        "path": "agentverse/tasks/tasksolving/tool_using/24point/config.yaml",
+        "line": 1,
+        "characters": 7557
+      }
+    ],
+    "collection_metadata": {
+      "full": "openbmb/agentverse",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "c9c0dbeea3767f6ae938294a859c6367970a1641",
+      "ref_date": "2023-10-27"
+    },
+    "fetched_at": "2026-11-01T03:14:41Z"
+  },
+  {
+    "system_id": "androidgen",
+    "repo": "thudm/androidgen",
+    "commit": "3f511cff18a842e6583ac7e7d9cabd217c5d3b1b",
+    "source_files": 39,
+    "baseline_selected_files": [
+      "model/agent.py",
+      "model/planning/prompt.py",
+      "config.json",
+      "model/judge/judge_prompt.py",
+      "environment/android/config.json"
+    ],
+    "characters": {
+      "collection_110k": 19535,
+      "collection_440k": 19535,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "evaluate/androidworld/eval.py",
+        "line": 1,
+        "characters": 6485
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 6098
+      },
+      {
+        "path": "LICENSE",
+        "line": 1,
+        "characters": 11337
+      },
+      {
+        "path": "model/prompt/android.py",
+        "line": 1,
+        "characters": 3522
+      },
+      {
+        "path": "model/judge/judge_prompt.py",
+        "line": 1,
+        "characters": 5984
+      },
+      {
+        "path": "democase/1720533256/record.jsonl",
+        "line": 1,
+        "characters": 25664
+      },
+      {
+        "path": "evaluate/androidworld/androidgen.py",
+        "line": 1,
+        "characters": 2185
+      },
+      {
+        "path": "evaluate/popular_application/test.json",
+        "line": 1,
+        "characters": 2990
+      },
+      {
+        "path": "environment/android/env.py",
+        "line": 1,
+        "characters": 6785
+      },
+      {
+        "path": "democase/1720594731/record.jsonl",
+        "line": 1,
+        "characters": 29812
+      },
+      {
+        "path": "run.py",
+        "line": 1,
+        "characters": 1565
+      },
+      {
+        "path": "model/planning/prompt.py",
+        "line": 1,
+        "characters": 1784
+      },
+      {
+        "path": "model/judge/judge.py",
+        "line": 1,
+        "characters": 5222
+      },
+      {
+        "path": "evaluate/androidworld/eval.py",
+        "line": 201,
+        "characters": 477
+      }
+    ],
+    "collection_metadata": {
+      "full": "thudm/androidgen",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "3f511cff18a842e6583ac7e7d9cabd217c5d3b1b",
+      "ref_date": "2025-05-29"
+    },
+    "fetched_at": "2026-11-01T03:14:49Z"
+  },
+  {
+    "system_id": "apollo-2",
+    "repo": "frosty-compiler/apollo",
+    "commit": "66203b4a9e9068fa4751f15d0fca8843de0f1509",
+    "source_files": 37,
+    "baseline_selected_files": [
+      "src/core/agent.py"
+    ],
+    "characters": {
+      "collection_110k": 4576,
+      "collection_440k": 4576,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "src/prompts/article.py",
+        "line": 1,
+        "characters": 8977
+      },
+      {
+        "path": "src/prompts/article.py",
+        "line": 201,
+        "characters": 5931
+      },
+      {
+        "path": "src/utils/vizualize_kg.py",
+        "line": 1,
+        "characters": 5928
+      },
+      {
+        "path": "src/prompts/graph.py",
+        "line": 201,
+        "characters": 4780
+      },
+      {
+        "path": "src/utils/text_processing.py",
+        "line": 1,
+        "characters": 8397
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 2063
+      },
+      {
+        "path": "src/utils/info_diversity.py",
+        "line": 1,
+        "characters": 4901
+      },
+      {
+        "path": "src/utils/start_server.py",
+        "line": 1,
+        "characters": 5763
+      },
+      {
+        "path": "src/prompts/outline.py",
+        "line": 1,
+        "characters": 5121
+      },
+      {
+        "path": "src/tools/rm.py",
+        "line": 401,
+        "characters": 7243
+      },
+      {
+        "path": "src/tools/rm.py",
+        "line": 1,
+        "characters": 7055
+      },
+      {
+        "path": "src/utils/text_processing.py",
+        "line": 401,
+        "characters": 4459
+      },
+      {
+        "path": "src/tools/lm.py",
+        "line": 1,
+        "characters": 6775
+      },
+      {
+        "path": "src/tools/rm.py",
+        "line": 201,
+        "characters": 6812
+      },
+      {
+        "path": "src/agents/article_polisher.py",
+        "line": 1,
+        "characters": 4665
+      },
+      {
+        "path": "src/utils/resolver_kg.py",
+        "line": 1,
+        "characters": 4780
+      },
+      {
+        "path": "src/utils/text_processing.py",
+        "line": 201,
+        "characters": 8134
+      },
+      {
+        "path": "src/utils/urls_to_nodes.py",
+        "line": 1,
+        "characters": 7185
+      },
+      {
+        "path": "src/utils/urls_to_nodes.py",
+        "line": 601,
+        "characters": 937
+      }
+    ],
+    "collection_metadata": {
+      "full": "frosty-compiler/apollo",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "66203b4a9e9068fa4751f15d0fca8843de0f1509",
+      "ref_date": "2025-08-13"
+    },
+    "fetched_at": "2026-11-01T03:14:41Z"
+  },
+  {
+    "system_id": "ave",
+    "repo": "causalflow-ai/avelang",
+    "commit": "8b9a82e4ba123e6905f30e516b47020007d456d2",
+    "source_files": 210,
+    "baseline_selected_files": [
+      "docs/eleventy.config.js"
+    ],
+    "characters": {
+      "collection_110k": 32029,
+      "collection_440k": 32029,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "docs/content/language-reference/builtin-types.md",
+        "line": 1,
+        "characters": 4988
+      },
+      {
+        "path": "LICENSE.txt",
+        "line": 1,
+        "characters": 11266
+      },
+      {
+        "path": "tools/dump_assembly.py",
+        "line": 201,
+        "characters": 7677
+      },
+      {
+        "path": "docs/content/language-reference/hardware-intrinsics.md",
+        "line": 1,
+        "characters": 6875
+      },
+      {
+        "path": "python/avelang/backends/nvidia/driver.py",
+        "line": 1,
+        "characters": 5762
+      },
+      {
+        "path": "python/avelang/runtime/jit.py",
+        "line": 201,
+        "characters": 7264
+      },
+      {
+        "path": "lib/Target/AMDGPU/amdgpu_backend.cc",
+        "line": 201,
+        "characters": 8050
+      },
+      {
+        "path": "lib/Target/AMDGPU/amdgpu_backend.cc",
+        "line": 1,
+        "characters": 6991
+      },
+      {
+        "path": "docs/content/language-reference/builtin-functions.md",
+        "line": 1,
+        "characters": 5359
+      },
+      {
+        "path": "python/avelang/runtime/build.py",
+        "line": 1,
+        "characters": 3313
+      },
+      {
+        "path": "CMakeLists.txt",
+        "line": 1,
+        "characters": 4937
+      },
+      {
+        "path": "docs/content/tutorials/02-gemm.md",
+        "line": 1,
+        "characters": 7532
+      },
+      {
+        "path": "python/avelang/runtime/jit.py",
+        "line": 1,
+        "characters": 6530
+      },
+      {
+        "path": "tools/dump_assembly.py",
+        "line": 1,
+        "characters": 7147
+      },
+      {
+        "path": "lib/Target/AMDGPU/amdgpu_toolchain.cc",
+        "line": 1,
+        "characters": 4153
+      },
+      {
+        "path": "tools/dump_llvm_ir.py",
+        "line": 201,
+        "characters": 2100
+      },
+      {
+        "path": "docs/content/get-started/installation.md",
+        "line": 1,
+        "characters": 2595
+      },
+      {
+        "path": "python/avelang/runtime/jit.py",
+        "line": 401,
+        "characters": 7373
+      }
+    ],
+    "collection_metadata": {
+      "full": "causalflow-ai/avelang",
+      "stars": 22,
+      "archived": false,
+      "license": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-10-23",
+      "ref": "commit:master",
+      "sha": "8b9a82e4ba123e6905f30e516b47020007d456d2",
+      "ref_date": "2026-08-10"
+    },
+    "fetched_at": "2026-11-01T03:15:21Z"
+  },
+  {
+    "system_id": "careconnect",
+    "repo": "hadi-hsn/careconnect",
+    "commit": "ec46f6a8c50a0d7e16f9da2c5e1f8e199bbc701a",
+    "source_files": 151,
+    "baseline_selected_files": [
+      "backend/app/schemas/agent.py",
+      "backend/app/core/config.py",
+      "frontend/vite.config.ts",
+      "frontend/tsconfig.json"
+    ],
+    "characters": {
+      "collection_110k": 31615,
+      "collection_440k": 31615,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "IEEE-conference.tex",
+        "line": 1,
+        "characters": 25740
+      },
+      {
+        "path": "backend/scripts/validate_rag.py",
+        "line": 1,
+        "characters": 5282
+      },
+      {
+        "path": "IEEEtran.cls",
+        "line": 2201,
+        "characters": 9362
+      },
+      {
+        "path": "IEEEtran.cls",
+        "line": 6001,
+        "characters": 8610
+      },
+      {
+        "path": "IEEEtran.cls",
+        "line": 1,
+        "characters": 9455
+      },
+      {
+        "path": "IEEEtran.cls",
+        "line": 2001,
+        "characters": 7925
+      },
+      {
+        "path": "IEEEtran.cls",
+        "line": 3601,
+        "characters": 11044
+      },
+      {
+        "path": "IEEEtran.cls",
+        "line": 3201,
+        "characters": 9394
+      },
+      {
+        "path": "frontend/src/pages/Appointments.tsx",
+        "line": 1001,
+        "characters": 8014
+      },
+      {
+        "path": "backend/scripts/seed_demo_data.py",
+        "line": 1401,
+        "characters": 10342
+      },
+      {
+        "path": "README.md",
+        "line": 201,
+        "characters": 4737
+      }
+    ],
+    "collection_metadata": {
+      "full": "hadi-hsn/careconnect",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "ec46f6a8c50a0d7e16f9da2c5e1f8e199bbc701a",
+      "ref_date": "2026-04-08"
+    },
+    "fetched_at": "2026-11-01T03:14:45Z"
+  },
+  {
+    "system_id": "cellforge",
+    "repo": "gersteinlab/cellforge",
+    "commit": "147f13b2b322e51186cafbdbb847190daf820899",
+    "source_files": 106,
+    "baseline_selected_files": [
+      "cellforge/Task_Analysis/refinement_agent.py",
+      "cellforge/autorun/runner.py",
+      "config.json",
+      "cellforge/Code_Generation/runner.py"
+    ],
+    "characters": {
+      "collection_110k": 66468,
+      "collection_440k": 66468,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "docs/ARCHITECTURE.md",
+        "line": 1,
+        "characters": 9290
+      },
+      {
+        "path": "SECURITY.md",
+        "line": 1,
+        "characters": 2952
+      },
+      {
+        "path": "docs/FAQ.md",
+        "line": 1,
+        "characters": 7608
+      },
+      {
+        "path": "scripts/export_example_run.py",
+        "line": 201,
+        "characters": 5247
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 10344
+      },
+      {
+        "path": "docs/QUICKSTART.md",
+        "line": 1,
+        "characters": 5023
+      },
+      {
+        "path": "examples/outputs/adamson_crispri/PROVENANCE.md",
+        "line": 1,
+        "characters": 6165
+      },
+      {
+        "path": "cellforge/Code_Generation/prompts.py",
+        "line": 1,
+        "characters": 3052
+      },
+      {
+        "path": "CODE_OF_CONDUCT.md",
+        "line": 1,
+        "characters": 4783
+      },
+      {
+        "path": "docs/ROADMAP.md",
+        "line": 1,
+        "characters": 5815
+      },
+      {
+        "path": "README.md",
+        "line": 201,
+        "characters": 8998
+      },
+      {
+        "path": "cellforge/Code_Generation/runner.py",
+        "line": 1,
+        "characters": 7393
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "line": 1,
+        "characters": 6408
+      },
+      {
+        "path": "docs/DATASETS.md",
+        "line": 1,
+        "characters": 6565
+      },
+      {
+        "path": "scripts/export_example_run.py",
+        "line": 1,
+        "characters": 7364
+      },
+      {
+        "path": "cellforge/legacy/rag_v1/search.py",
+        "line": 1,
+        "characters": 7022
+      },
+      {
+        "path": "examples/outputs/README.md",
+        "line": 1,
+        "characters": 5232
+      },
+      {
+        "path": "docs/RESULTS.md",
+        "line": 1,
+        "characters": 645
+      }
+    ],
+    "collection_metadata": {
+      "full": "gersteinlab/cellforge",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "147f13b2b322e51186cafbdbb847190daf820899",
+      "ref_date": "2026-08-01"
+    },
+    "fetched_at": "2026-11-01T03:14:39Z"
+  },
+  {
+    "system_id": "cowpilot",
+    "repo": "oaishi/cowpilot",
+    "commit": "1bb408521ea38721671ef3ba6aab3577ba48424c",
+    "source_files": 73,
+    "baseline_selected_files": [
+      "jest.config.ts",
+      "webpack.config.js",
+      "tsconfig.json"
+    ],
+    "characters": {
+      "collection_110k": 15980,
+      "collection_440k": 15980,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "src/helpers/summarizeUserAction.ts",
+        "line": 1,
+        "characters": 8449
+      },
+      {
+        "path": "jest.config.ts",
+        "line": 1,
+        "characters": 6620
+      },
+      {
+        "path": "src/helpers/determineNextAction.ts",
+        "line": 1,
+        "characters": 7627
+      },
+      {
+        "path": "LICENSE",
+        "line": 1,
+        "characters": 1089
+      },
+      {
+        "path": "src/common/SetAPIKey.tsx",
+        "line": 1,
+        "characters": 1695
+      },
+      {
+        "path": "src/pages/Background/index.ts",
+        "line": 1,
+        "characters": 5947
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 816
+      },
+      {
+        "path": "src/state/currentTask.ts",
+        "line": 601,
+        "characters": 9583
+      },
+      {
+        "path": "utils/webserver.js",
+        "line": 1,
+        "characters": 1520
+      },
+      {
+        "path": "src/helpers/availableActions.ts",
+        "line": 1,
+        "characters": 2218
+      },
+      {
+        "path": "webpack.config.js",
+        "line": 1,
+        "characters": 5485
+      },
+      {
+        "path": "src/common/RunTaskButton.tsx",
+        "line": 1,
+        "characters": 5492
+      },
+      {
+        "path": "src/helpers/parseResponse.test.ts",
+        "line": 1,
+        "characters": 2157
+      },
+      {
+        "path": "src/helpers/summarizeUserAction.ts",
+        "line": 201,
+        "characters": 6477
+      },
+      {
+        "path": "src/common/TaskUI.tsx",
+        "line": 1,
+        "characters": 4422
+      },
+      {
+        "path": "src/helpers/determineNextAction.ts",
+        "line": 201,
+        "characters": 3363
+      },
+      {
+        "path": "src/helpers/parseResponse.ts",
+        "line": 1,
+        "characters": 3632
+      },
+      {
+        "path": "src/helpers/disableExtensions.ts",
+        "line": 1,
+        "characters": 3031
+      },
+      {
+        "path": "src/state/store.ts",
+        "line": 1,
+        "characters": 3854
+      },
+      {
+        "path": "src/common/TaskHistory.tsx",
+        "line": 1,
+        "characters": 5632
+      },
+      {
+        "path": "src/state/currentTask.ts",
+        "line": 1,
+        "characters": 5870
+      },
+      {
+        "path": "src/pages/Content/getAnnotatedDOM.ts",
+        "line": 1,
+        "characters": 5154
+      },
+      {
+        "path": "src/state/currentTask.ts",
+        "line": 201,
+        "characters": 8777
+      },
+      {
+        "path": "src/state/currentTask.ts",
+        "line": 801,
+        "characters": 1003
+      }
+    ],
+    "collection_metadata": {
+      "full": "oaishi/cowpilot",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "1bb408521ea38721671ef3ba6aab3577ba48424c",
+      "ref_date": "2025-05-20"
+    },
+    "fetched_at": "2026-11-01T03:14:37Z"
+  },
+  {
+    "system_id": "executionagent",
+    "repo": "sola-st/executionagent",
+    "commit": "f365076dd3c52962c6dfe43462edc1a51d16e66e",
+    "source_files": 140,
+    "baseline_selected_files": [
+      "src/execution_agent/agent.py",
+      "src/execution_agent/config.py",
+      "src/minisweagent/run/extra/config.py"
+    ],
+    "characters": {
+      "collection_110k": 31739,
+      "collection_440k": 31739,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "src/execution_agent/prompt_files/cycle_instruction",
+        "line": 1,
+        "characters": 7581
+      },
+      {
+        "path": "src/execution_agent/state_persistence.py",
+        "line": 1,
+        "characters": 6446
+      },
+      {
+        "path": "src/execution_agent/agent.py",
+        "line": 201,
+        "characters": 8585
+      },
+      {
+        "path": "src/execution_agent/prompt_files/tools_list",
+        "line": 1,
+        "characters": 5785
+      },
+      {
+        "path": "src/execution_agent/tools.py",
+        "line": 601,
+        "characters": 8655
+      },
+      {
+        "path": "src/execution_agent/agent.py",
+        "line": 601,
+        "characters": 12223
+      },
+      {
+        "path": "src/execution_agent/tools.py",
+        "line": 1201,
+        "characters": 8227
+      },
+      {
+        "path": "src/execution_agent/prompt_files/search_workflows_summary",
+        "line": 1,
+        "characters": 5079
+      },
+      {
+        "path": "src/execution_agent/main.py",
+        "line": 1001,
+        "characters": 8810
+      },
+      {
+        "path": "src/execution_agent/context.py",
+        "line": 1401,
+        "characters": 8772
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 6549
+      },
+      {
+        "path": "README.md",
+        "line": 201,
+        "characters": 6347
+      },
+      {
+        "path": "src/execution_agent/main.py",
+        "line": 801,
+        "characters": 8135
+      },
+      {
+        "path": "src/execution_agent/context.py",
+        "line": 1,
+        "characters": 7519
+      },
+      {
+        "path": "src/execution_agent/state_persistence.py",
+        "line": 201,
+        "characters": 1187
+      }
+    ],
+    "collection_metadata": {
+      "full": "sola-st/executionagent",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "f365076dd3c52962c6dfe43462edc1a51d16e66e",
+      "ref_date": "2026-08-13"
+    },
+    "fetched_at": "2026-11-01T03:14:42Z"
+  },
+  {
+    "system_id": "github-copilot-cli",
+    "repo": "github/copilot-cli",
+    "commit": "be82101e70f0253b57519bebb9cc9d0f6dfb2ed2",
+    "source_files": 4,
+    "baseline_selected_files": [],
+    "characters": {
+      "collection_110k": 8352,
+      "collection_440k": 8352,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "changelog.md",
+        "line": 1,
+        "characters": 24916
+      },
+      {
+        "path": "changelog.md",
+        "line": 1001,
+        "characters": 17543
+      },
+      {
+        "path": "changelog.md",
+        "line": 201,
+        "characters": 17544
+      },
+      {
+        "path": "changelog.md",
+        "line": 1601,
+        "characters": 15288
+      },
+      {
+        "path": "changelog.md",
+        "line": 2801,
+        "characters": 16988
+      },
+      {
+        "path": "changelog.md",
+        "line": 801,
+        "characters": 17161
+      },
+      {
+        "path": "changelog.md",
+        "line": 401,
+        "characters": 460
+      }
+    ],
+    "collection_metadata": {
+      "full": "github/copilot-cli",
+      "stars": 11317,
+      "archived": false,
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "pushed_at": "2026-11-01",
+      "ref": "tag:v1.0.83",
+      "sha": "be82101e70f0253b57519bebb9cc9d0f6dfb2ed2",
+      "ref_date": "2026-08-29"
+    },
+    "fetched_at": "2026-11-01T03:14:42Z"
+  },
+  {
+    "system_id": "icrl-prompting",
+    "repo": "garified/icrl-for-llm-agent",
+    "commit": "d797a1ea1aa6f9e69895b5a5bc75c0baac5b63c9",
+    "source_files": 26,
+    "baseline_selected_files": [],
+    "characters": {
+      "collection_110k": 2515,
+      "collection_440k": 2515,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "sciworld.py",
+        "line": 1,
+        "characters": 9738
+      },
+      {
+        "path": "llm_creative_writing_api_reflexion.py",
+        "line": 1,
+        "characters": 9393
+      },
+      {
+        "path": "llm_game24_api_reflexion.py",
+        "line": 401,
+        "characters": 11520
+      },
+      {
+        "path": "plots.ipynb",
+        "line": 801,
+        "characters": 16416
+      },
+      {
+        "path": "sciworld_armap/envs/base.py",
+        "line": 1,
+        "characters": 4139
+      },
+      {
+        "path": "llm_game24_api.py",
+        "line": 201,
+        "characters": 9846
+      },
+      {
+        "path": "llm_game24_api_reflexion.py",
+        "line": 1,
+        "characters": 14525
+      },
+      {
+        "path": "sciworld_armap/envs/sciworld_env.py",
+        "line": 1,
+        "characters": 6990
+      },
+      {
+        "path": "llm_game24_api.py",
+        "line": 1,
+        "characters": 10135
+      },
+      {
+        "path": "sciworld.py",
+        "line": 801,
+        "characters": 6036
+      },
+      {
+        "path": "sciworld.py",
+        "line": 201,
+        "characters": 7802
+      },
+      {
+        "path": "llm_game24_api_rejection.py",
+        "line": 201,
+        "characters": 3355
+      }
+    ],
+    "collection_metadata": {
+      "full": "garified/icrl-for-llm-agent",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "d797a1ea1aa6f9e69895b5a5bc75c0baac5b63c9",
+      "ref_date": "2025-05-22"
+    },
+    "fetched_at": "2026-11-01T03:14:38Z"
+  },
+  {
+    "system_id": "ipiguard",
+    "repo": "greysahy/ipiguard",
+    "commit": "4e686ed2f62c135cb12564a4466daa95f3ace878",
+    "source_files": 162,
+    "baseline_selected_files": [],
+    "characters": {
+      "collection_110k": 14580,
+      "collection_440k": 14580,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "agentdojo/src/agentdojo/agent_pipeline/llms/prompting_llm.py",
+        "line": 1,
+        "characters": 10897
+      },
+      {
+        "path": "LICENSE",
+        "line": 1,
+        "characters": 11338
+      },
+      {
+        "path": "agentdojo/docs/concepts/agent_pipeline.md",
+        "line": 1,
+        "characters": 5157
+      },
+      {
+        "path": "agentdojo/src/agentdojo/agent_pipeline/basic_elements.py",
+        "line": 1,
+        "characters": 11972
+      },
+      {
+        "path": "agentdojo/docs/concepts/task_suite_and_tasks.md",
+        "line": 1,
+        "characters": 8659
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 5543
+      },
+      {
+        "path": "agentdojo/src/agentdojo/agent_pipeline/llms/ipiguard_llm.py",
+        "line": 1,
+        "characters": 8858
+      },
+      {
+        "path": "agentdojo/src/agentdojo/data/suites/workspace/include/inbox.yaml",
+        "line": 1,
+        "characters": 7908
+      },
+      {
+        "path": "agentdojo/src/agentdojo/agent_pipeline/llms/react_llm.py",
+        "line": 1,
+        "characters": 7217
+      },
+      {
+        "path": "agentdojo/src/agentdojo/scripts/benchmark.py",
+        "line": 1,
+        "characters": 6449
+      },
+      {
+        "path": "agentdojo/src/agentdojo/benchmark.py",
+        "line": 1,
+        "characters": 8645
+      },
+      {
+        "path": "agentdojo/src/agentdojo/base_tasks.py",
+        "line": 1,
+        "characters": 6925
+      },
+      {
+        "path": "agentdojo/docs/concepts/attacks.md",
+        "line": 1,
+        "characters": 3719
+      },
+      {
+        "path": "agentdojo/src/agentdojo/agent_pipeline/llms/ipiguard_llm.py",
+        "line": 201,
+        "characters": 6624
+      }
+    ],
+    "collection_metadata": {
+      "full": "greysahy/ipiguard",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "4e686ed2f62c135cb12564a4466daa95f3ace878",
+      "ref_date": "2025-09-16"
+    },
+    "fetched_at": "2026-11-01T03:15:12Z"
+  },
+  {
+    "system_id": "kdr-agent",
+    "repo": "mwxgod/kdr-agent",
+    "commit": "0d0ba06eb4cdc7b5cc2c4fcb47b5b59f94765ca2",
+    "source_files": 47,
+    "baseline_selected_files": [
+      "tool.py"
+    ],
+    "characters": {
+      "collection_110k": 14193,
+      "collection_440k": 14193,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "tool.py",
+        "line": 1,
+        "characters": 8765
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 3509
+      },
+      {
+        "path": "data/Twitter_NER7/define_sample_min.json",
+        "line": 1,
+        "characters": 3066
+      },
+      {
+        "path": "data/News_Conll03/define_sample_add.json",
+        "line": 201,
+        "characters": 3511
+      },
+      {
+        "path": "data/Twitter_NER7/define_sample_add.json",
+        "line": 1,
+        "characters": 6334
+      },
+      {
+        "path": "main.py",
+        "line": 1,
+        "characters": 5599
+      },
+      {
+        "path": "data/Bio_NCBI/define_sample_add.json",
+        "line": 1,
+        "characters": 6374
+      },
+      {
+        "path": "data/Wiki_Neural/define_sample_add.json",
+        "line": 1,
+        "characters": 6156
+      },
+      {
+        "path": "data/News_Ontonotes/define_sample_min.json",
+        "line": 201,
+        "characters": 5639
+      },
+      {
+        "path": "data/Bio_BC5CDR/define_sample_add.json",
+        "line": 1,
+        "characters": 6232
+      },
+      {
+        "path": "data/Bio_BC5CDR/define_sample_add.json",
+        "line": 201,
+        "characters": 6010
+      },
+      {
+        "path": "data/Twitter_NER7/define_sample_add.json",
+        "line": 201,
+        "characters": 5141
+      },
+      {
+        "path": "data/News_Conll03/define_sample_add.json",
+        "line": 1,
+        "characters": 5792
+      },
+      {
+        "path": "data/News_Ontonotes/define_sample_add.json",
+        "line": 1,
+        "characters": 2041
+      },
+      {
+        "path": "tool.py",
+        "line": 201,
+        "characters": 1495
+      },
+      {
+        "path": "data/Bio_NCBI/define_sample_add.json",
+        "line": 201,
+        "characters": 2727
+      },
+      {
+        "path": "data/Bio_BC5CDR/test_sample.json",
+        "line": 1,
+        "characters": 1438
+      },
+      {
+        "path": "data/News_Ontonotes/define_sample_min.json",
+        "line": 1,
+        "characters": 5784
+      },
+      {
+        "path": "arguments.py",
+        "line": 1,
+        "characters": 350
+      },
+      {
+        "path": "data/MIT_Restaurant/define_sample_min.json",
+        "line": 1,
+        "characters": 4115
+      },
+      {
+        "path": "data/MIT_Restaurant/define_sample_add.json",
+        "line": 1,
+        "characters": 5153
+      },
+      {
+        "path": "data/News_Conll03/define.json",
+        "line": 1,
+        "characters": 397
+      },
+      {
+        "path": "jsonchecker.py",
+        "line": 1,
+        "characters": 1121
+      },
+      {
+        "path": "data/MIT_Restaurant/define.json",
+        "line": 1,
+        "characters": 638
+      },
+      {
+        "path": "data/Twitter_Broad/define_sample_add.json",
+        "line": 1,
+        "characters": 5569
+      },
+      {
+        "path": "data/Twitter_NER7/define.json",
+        "line": 1,
+        "characters": 827
+      },
+      {
+        "path": "data/Wiki_Neural/define_sample_add.json",
+        "line": 201,
+        "characters": 2308
+      },
+      {
+        "path": "data/News_Conll03/define_sample_min.json",
+        "line": 1,
+        "characters": 2031
+      },
+      {
+        "path": "data/MIT_Movie/define.json",
+        "line": 1,
+        "characters": 704
+      },
+      {
+        "path": "data/MIT_Movie/define_sample_min.json",
+        "line": 1,
+        "characters": 1085
+      }
+    ],
+    "collection_metadata": {
+      "full": "mwxgod/kdr-agent",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "0d0ba06eb4cdc7b5cc2c4fcb47b5b59f94765ca2",
+      "ref_date": "2025-11-24"
+    },
+    "fetched_at": "2026-11-01T03:15:19Z"
+  },
+  {
+    "system_id": "mdcrow",
+    "repo": "ur-whitelab/mdcrow",
+    "commit": "b3b0b57a804d97c0d01c810a381313a2bc2114d6",
+    "source_files": 472,
+    "baseline_selected_files": [
+      "mdcrow/agent/agent.py",
+      "mdcrow/agent/memory.py",
+      "mdcrow/tools/base_tools/analysis_tools/rdf_tool.py",
+      "mdcrow/agent/prompt.py",
+      "mdcrow/tools/base_tools/analysis_tools/salt_bridge_tool.py",
+      "mdcrow/tools/base_tools/analysis_tools/bond_angles_dihedrals_tool.py"
+    ],
+    "characters": {
+      "collection_110k": 71895,
+      "collection_440k": 71895,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "notebooks/experiments/compare_python_code/react_agent/exp_7.ipynb",
+        "line": 58201,
+        "characters": 9029
+      },
+      {
+        "path": "mdcrow/agent/memory.py",
+        "line": 1,
+        "characters": 4570
+      },
+      {
+        "path": "notebooks/experiments/main_experiments/claude-3-opus/exp_11.ipynb",
+        "line": 1,
+        "characters": 8643
+      },
+      {
+        "path": "mdcrow/tools/base_tools/analysis_tools/distance_tools.py",
+        "line": 201,
+        "characters": 8187
+      },
+      {
+        "path": "notebooks/experiments/compare_python_code/react_agent/exp_15.ipynb",
+        "line": 21801,
+        "characters": 9466
+      },
+      {
+        "path": "notebooks/experiments/Robustness/with_claude_pressure_fix/claude-3-5-sonnet-20241022/prompt7.ipynb",
+        "line": 201,
+        "characters": 10517
+      },
+      {
+        "path": "notebooks/experiments/main_experiments/claude-3-5-sonnet/exp_22.ipynb",
+        "line": 1,
+        "characters": 13813
+      },
+      {
+        "path": "notebooks/experiments/compare_python_code/react_agent/exp_22.ipynb",
+        "line": 34601,
+        "characters": 6951
+      },
+      {
+        "path": "notebooks/mdcrow_extrapolation/simulated_annealing.ipynb",
+        "line": 1801,
+        "characters": 12950
+      },
+      {
+        "path": "notebooks/experiments/Robustness/claude-3-5-sonnet-20241022/prompt3.ipynb",
+        "line": 201,
+        "characters": 14929
+      },
+      {
+        "path": "notebooks/experiments/Robustness/with_claude_pressure_fix/claude-3-5-sonnet-20240620/prompt8.ipynb",
+        "line": 801,
+        "characters": 10857
+      }
+    ],
+    "collection_metadata": {
+      "full": "ur-whitelab/mdcrow",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "b3b0b57a804d97c0d01c810a381313a2bc2114d6",
+      "ref_date": "2025-03-03"
+    },
+    "fetched_at": "2026-11-01T03:14:46Z"
+  },
+  {
+    "system_id": "musicagent",
+    "repo": "microsoft/muzic",
+    "commit": "c45a9b8ea4b116c382f48fe094fd2718f03fa83b",
+    "source_files": 273,
+    "baseline_selected_files": [],
+    "characters": {
+      "collection_110k": 26913,
+      "collection_440k": 26913,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "deeprapper/tokenizations/tokenization_bert_word_level.py",
+        "line": 1,
+        "characters": 10458
+      },
+      {
+        "path": "deeprapper/tokenizations/tokenization_bert.py",
+        "line": 1,
+        "characters": 10510
+      },
+      {
+        "path": "deeprapper/tokenizations/tokenization_bert_word_level.py",
+        "line": 201,
+        "characters": 7941
+      },
+      {
+        "path": "SECURITY.md",
+        "line": 1,
+        "characters": 2799
+      },
+      {
+        "path": "SUPPORT.md",
+        "line": 1,
+        "characters": 1333
+      },
+      {
+        "path": "songmass/data/dict.lyric.txt",
+        "line": 1,
+        "characters": 2284
+      },
+      {
+        "path": "deeprapper/tokenizations/tokenization_bert.py",
+        "line": 201,
+        "characters": 7752
+      },
+      {
+        "path": "deeprapper/module.py",
+        "line": 401,
+        "characters": 7934
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 2679
+      },
+      {
+        "path": "deeprapper/module.py",
+        "line": 201,
+        "characters": 8985
+      },
+      {
+        "path": "deeprapper/module.py",
+        "line": 1,
+        "characters": 8974
+      },
+      {
+        "path": "deeprapper/train.py",
+        "line": 201,
+        "characters": 9320
+      },
+      {
+        "path": "deeprapper/generate.py",
+        "line": 1,
+        "characters": 9973
+      },
+      {
+        "path": "songmass/mass/masked_mh_attention.py",
+        "line": 1,
+        "characters": 7217
+      },
+      {
+        "path": "LICENSE",
+        "line": 1,
+        "characters": 1156
+      },
+      {
+        "path": "deeprapper/module.py",
+        "line": 601,
+        "characters": 7673
+      },
+      {
+        "path": "deeprapper/prepare_train_data.py",
+        "line": 401,
+        "characters": 2923
+      }
+    ],
+    "collection_metadata": {
+      "full": "microsoft/muzic",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "c45a9b8ea4b116c382f48fe094fd2718f03fa83b",
+      "ref_date": "2021-08-24"
+    },
+    "fetched_at": "2026-11-01T03:15:26Z"
+  },
+  {
+    "system_id": "rl-llm-dt",
+    "repo": "linjunjie99/rl-llm-dt",
+    "commit": "4ef96ac5feb123f7d9cede65fac700ee0345b89a",
+    "source_files": 171,
+    "baseline_selected_files": [
+      "train_curling/learner/core/agent.py",
+      "train_curling/actor/env/config.json",
+      "train_curling/actor/olympics_engine/agent.py",
+      "train_curling/actor/envs/running/config.json",
+      "train_curling/actor/envs/olympics/agent.py",
+      "train_curling/learner/envs/running/config.json",
+      "train_curling/learner/envs/olympics/agent.py",
+      "train_curling/learner/agents/dqn/dqn_agent.py"
+    ],
+    "characters": {
+      "collection_110k": 25966,
+      "collection_440k": 25966,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "train_curling/learner/utils/logger.py",
+        "line": 201,
+        "characters": 5045
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 3833
+      },
+      {
+        "path": "train_curling/actor/utils/mpi_util.py",
+        "line": 1,
+        "characters": 4410
+      },
+      {
+        "path": "train_curling/actor/utils/space.py",
+        "line": 1,
+        "characters": 2368
+      },
+      {
+        "path": "train_curling/actor/envs/vec_env/vec_env.py",
+        "line": 1,
+        "characters": 5516
+      },
+      {
+        "path": "train_curling/actor/utils/logger.py",
+        "line": 201,
+        "characters": 5048
+      },
+      {
+        "path": "train_curling/learner/utils/mpi_util.py",
+        "line": 1,
+        "characters": 4412
+      },
+      {
+        "path": "train_curling/actor/envs/running/utils/space.py",
+        "line": 1,
+        "characters": 2381
+      },
+      {
+        "path": "train_curling/learner/envs/vec_env/vec_env.py",
+        "line": 1,
+        "characters": 5518
+      },
+      {
+        "path": "train_curling/learner/envs/running/utils/space.py",
+        "line": 1,
+        "characters": 2383
+      },
+      {
+        "path": "train_curling/learner/core/agent.py",
+        "line": 1,
+        "characters": 6706
+      },
+      {
+        "path": "train_curling/learner/learner.py",
+        "line": 1,
+        "characters": 6686
+      },
+      {
+        "path": "train_curling/actor/utils/data_trans.py",
+        "line": 1,
+        "characters": 3384
+      },
+      {
+        "path": "train_curling/actor/envs/atari/atari_wrappers.py",
+        "line": 1,
+        "characters": 6812
+      },
+      {
+        "path": "train_curling/actor/envs/vec_env/subproc_vec_env.py",
+        "line": 1,
+        "characters": 5119
+      },
+      {
+        "path": "train_curling/learner/envs/atari/atari_wrappers.py",
+        "line": 1,
+        "characters": 6814
+      },
+      {
+        "path": "train_curling/learner/envs/vec_env/subproc_vec_env.py",
+        "line": 1,
+        "characters": 5121
+      },
+      {
+        "path": "train_curling/learner/core/utils.py",
+        "line": 1,
+        "characters": 1271
+      },
+      {
+        "path": "train_curling/actor/olympics_engine/README.md",
+        "line": 1,
+        "characters": 618
+      },
+      {
+        "path": "train_curling/actor/actor.py",
+        "line": 1,
+        "characters": 7709
+      },
+      {
+        "path": "train_curling/actor/olympics_engine/core.py",
+        "line": 201,
+        "characters": 7265
+      },
+      {
+        "path": "train_curling/actor/olympics_engine/scenario/longjump.py",
+        "line": 1,
+        "characters": 3823
+      },
+      {
+        "path": "train_curling/actor/envs/olympics/README.md",
+        "line": 1,
+        "characters": 908
+      },
+      {
+        "path": "train_curling/actor/utils/logger.py",
+        "line": 401,
+        "characters": 2282
+      },
+      {
+        "path": "train_curling/actor/envs/olympics/core.py",
+        "line": 201,
+        "characters": 4474
+      }
+    ],
+    "collection_metadata": {
+      "full": "Linjunjie99/RL-LLM-DT",
+      "stars": 13,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "2024-12-19",
+      "ref": "commit:main",
+      "sha": "4ef96ac5feb123f7d9cede65fac700ee0345b89a",
+      "ref_date": "2024-12-19"
+    },
+    "fetched_at": "2026-11-01T03:15:28Z"
+  },
+  {
+    "system_id": "self-organized-agents",
+    "repo": "tsukushiai/self-organized-agent",
+    "commit": "a5698d7e19eef407d293022a29d3baf601f3372a",
+    "source_files": 52,
+    "baseline_selected_files": [
+      "programming_runs/soas/agent.py",
+      "programming_runs/executors/py_executor.py",
+      "programming_runs/soas/prompt.py",
+      "programming_runs/self_org_agent.py",
+      "programming_runs/executors/rs_executor.py",
+      "programming_runs/executors/leet_executor.py"
+    ],
+    "characters": {
+      "collection_110k": 32958,
+      "collection_440k": 32958,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "programming_runs/benchmarks/leetcode-hard-py.jsonl",
+        "line": 1,
+        "characters": 109884
+      }
+    ],
+    "collection_metadata": {
+      "full": "tsukushiai/self-organized-agent",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "a5698d7e19eef407d293022a29d3baf601f3372a",
+      "ref_date": "2024-12-22"
+    },
+    "fetched_at": "2026-11-01T03:15:26Z"
+  },
+  {
+    "system_id": "stop-rag",
+    "repo": "chosolbee/stop-rag",
+    "commit": "fcbcb781fd95d56b1fde72ada15357a6a6f03941",
+    "source_files": 155,
+    "baseline_selected_files": [
+      "src/config.py",
+      "src/train/deepspeed_config.json"
+    ],
+    "characters": {
+      "collection_110k": 14897,
+      "collection_440k": 14897,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt",
+        "line": 201,
+        "characters": 23819
+      },
+      {
+        "path": "src/pipeline/contriever/src/utils.py",
+        "line": 1,
+        "characters": 6677
+      },
+      {
+        "path": "src/pipeline/ircot_prompts/iirc/gold_with_2_distractors_context_direct_qa_codex.txt",
+        "line": 201,
+        "characters": 25775
+      },
+      {
+        "path": "src/pipeline/ircot_prompts/musique/gold_with_2_distractors_context_direct_qa_flan_t5.txt",
+        "line": 201,
+        "characters": 22820
+      },
+      {
+        "path": "src/pipeline/ircot_prompts/musique/gold_with_3_distractors_context_direct_qa_codex.txt",
+        "line": 1,
+        "characters": 27707
+      },
+      {
+        "path": "src/train/stop_rag_train.py",
+        "line": 401,
+        "characters": 3112
+      }
+    ],
+    "collection_metadata": {
+      "full": "chosolbee/stop-rag",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "fcbcb781fd95d56b1fde72ada15357a6a6f03941",
+      "ref_date": "2025-10-15"
+    },
+    "fetched_at": "2026-11-01T03:15:18Z"
+  },
+  {
+    "system_id": "swe-search",
+    "repo": "aorwall/moatless-tree-search",
+    "commit": "bc66ea64e3fe96cf3c90f197b4bab9aaa15e1eb9",
+    "source_files": 199,
+    "baseline_selected_files": [
+      "moatless/agent/agent.py",
+      "moatless/loop.py",
+      "moatless/benchmark/evaluation_runner.py",
+      "moatless/selector/prompt.py",
+      "moatless/benchmark/evaluation_config.py",
+      "moatless/agent/code_agent.py",
+      "moatless/feedback/feedback_agent.py"
+    ],
+    "characters": {
+      "collection_110k": 64143,
+      "collection_440k": 64143,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "moatless/debate.py",
+        "line": 1,
+        "characters": 8002
+      },
+      {
+        "path": "moatless/benchmark/test_evaluation_v2.py",
+        "line": 201,
+        "characters": 6928
+      },
+      {
+        "path": "moatless/agent/code_prompts.py",
+        "line": 1,
+        "characters": 7625
+      },
+      {
+        "path": "moatless/repository/git.py",
+        "line": 1,
+        "characters": 7210
+      },
+      {
+        "path": "moatless/actions/find_code_snippet.py",
+        "line": 1,
+        "characters": 4909
+      },
+      {
+        "path": "tests/benchmark/data/scikit-learn__scikit-learn-13779/trajectory.json",
+        "line": 601,
+        "characters": 53367
+      },
+      {
+        "path": "moatless/discriminator.py",
+        "line": 1,
+        "characters": 7211
+      },
+      {
+        "path": "tests/benchmark/data/scikit-learn__scikit-learn-13779/trajectory.json",
+        "line": 3201,
+        "characters": 14646
+      }
+    ],
+    "collection_metadata": {
+      "full": "aorwall/moatless-tree-search",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "bc66ea64e3fe96cf3c90f197b4bab9aaa15e1eb9",
+      "ref_date": "2025-01-13"
+    },
+    "fetched_at": "2026-11-01T03:15:28Z"
+  },
+  {
+    "system_id": "synthai",
+    "repo": "sarashs/fpga_agi",
+    "commit": "49d02d265afbec23f3a21d3926c2f98a0a43e5d5",
+    "source_files": 10,
+    "baseline_selected_files": [],
+    "characters": {
+      "collection_110k": 3021,
+      "collection_440k": 3021,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "FPGA_AGI/prompts.py",
+        "line": 1,
+        "characters": 14942
+      },
+      {
+        "path": "Experiments.ipynb",
+        "line": 201,
+        "characters": 37476
+      },
+      {
+        "path": "Experiments.ipynb",
+        "line": 601,
+        "characters": 57495
+      }
+    ],
+    "collection_metadata": {
+      "full": "sarashs/FPGA_AGI",
+      "stars": 15,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "2024-08-01",
+      "ref": "commit:main",
+      "sha": "49d02d265afbec23f3a21d3926c2f98a0a43e5d5",
+      "ref_date": "2024-08-01"
+    },
+    "fetched_at": "2026-11-01T03:15:26Z"
+  },
+  {
+    "system_id": "taskgen",
+    "repo": "simbianai/taskgen",
+    "commit": "e20048068cb0659862c2bec459f9b0c5e93c88a3",
+    "source_files": 43,
+    "baseline_selected_files": [
+      "taskgen/agent.py",
+      "taskgen/memory.py",
+      "Paper/web_browsing_agent/conversational_web_browsing_agent.py"
+    ],
+    "characters": {
+      "collection_110k": 44933,
+      "collection_440k": 44933,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "Tutorial 5 - CodeGen and External Function Interfacing.ipynb",
+        "line": 401,
+        "characters": 105855
+      },
+      {
+        "path": "Tutorial 5 - CodeGen and External Function Interfacing.ipynb",
+        "line": 201,
+        "characters": 4057
+      }
+    ],
+    "collection_metadata": {
+      "full": "simbianai/taskgen",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "e20048068cb0659862c2bec459f9b0c5e93c88a3",
+      "ref_date": "2026-06-08"
+    },
+    "fetched_at": "2026-11-01T03:15:15Z"
+  },
+  {
+    "system_id": "tdad",
+    "repo": "f-labs-io/tdad-paper-code",
+    "commit": "9ed75232efeecd5420f1490192f413e1ffc0170e",
+    "source_files": 115,
+    "baseline_selected_files": [
+      "scripts/run_agent.py",
+      "tdadlib/runtime/runner.py",
+      "scripts/compile_prompt.py"
+    ],
+    "characters": {
+      "collection_110k": 39359,
+      "collection_440k": 39359,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "scripts/compile_prompt.py",
+        "line": 201,
+        "characters": 8714
+      },
+      {
+        "path": "tdadlib/testsmith/generator.py",
+        "line": 401,
+        "characters": 7970
+      },
+      {
+        "path": "LICENSE",
+        "line": 1,
+        "characters": 11268
+      },
+      {
+        "path": "specs/core/datainsights/v2/spec.yaml",
+        "line": 1,
+        "characters": 5192
+      },
+      {
+        "path": "tdadlib/testsmith/generator.py",
+        "line": 801,
+        "characters": 8011
+      },
+      {
+        "path": "specs/core/datainsights/v1/spec.yaml",
+        "line": 1,
+        "characters": 5189
+      },
+      {
+        "path": "tdadlib/testsmith/generator.py",
+        "line": 601,
+        "characters": 7198
+      },
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 7000
+      },
+      {
+        "path": "mutation_packs/core/datainsights/mutations.yaml",
+        "line": 1,
+        "characters": 4284
+      },
+      {
+        "path": "scripts/compile_prompt.py",
+        "line": 1,
+        "characters": 7795
+      },
+      {
+        "path": "scripts/run_agent.py",
+        "line": 1,
+        "characters": 3737
+      },
+      {
+        "path": "tdadlib/testsmith/generator.py",
+        "line": 201,
+        "characters": 7539
+      },
+      {
+        "path": "scripts/compile_prompt.py",
+        "line": 401,
+        "characters": 8960
+      },
+      {
+        "path": "tdadlib/testsmith/generator.py",
+        "line": 1001,
+        "characters": 6701
+      },
+      {
+        "path": "docs/TESTSMITH_GUIDELINES.md",
+        "line": 1,
+        "characters": 6008
+      },
+      {
+        "path": "tdadlib/testsmith/generator.py",
+        "line": 1,
+        "characters": 4341
+      }
+    ],
+    "collection_metadata": {
+      "full": "f-labs-io/tdad-paper-code",
+      "stars": 8,
+      "archived": false,
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2026-03-11",
+      "ref": "commit:main",
+      "sha": "9ed75232efeecd5420f1490192f413e1ffc0170e",
+      "ref_date": "2026-03-11"
+    },
+    "fetched_at": "2026-11-01T03:15:23Z"
+  },
+  {
+    "system_id": "unidoc-rl",
+    "repo": "deepglint/unidoc-rl",
+    "commit": "3c3e574916744791ebc3136fa078789ea816bffa",
+    "source_files": 405,
+    "baseline_selected_files": [
+      "LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "RLTrain/verl/utils/megatron/memory.py",
+      "synthetic_data/prompt.py",
+      "RLTrain/verl/utils/config.py"
+    ],
+    "characters": {
+      "collection_110k": 48691,
+      "collection_440k": 48691,
+      "retrieval_110k": 110000
+    },
+    "larger_budget_changes_input": false,
+    "retrieved_chunks": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "characters": 6763
+      },
+      {
+        "path": "LLaMA-Factory/data/glaive_toolcall_en_demo.json",
+        "line": 2601,
+        "characters": 22849
+      },
+      {
+        "path": "LLaMA-Factory/data/c4_demo.jsonl",
+        "line": 1,
+        "characters": 80296
+      }
+    ],
+    "collection_metadata": {
+      "full": "deepglint/unidoc-rl",
+      "stars": 0,
+      "archived": false,
+      "license": "",
+      "default_branch": "main",
+      "pushed_at": "",
+      "ref": "audit-pin",
+      "sha": "3c3e574916744791ebc3136fa078789ea816bffa",
+      "ref_date": "2026-05-21"
+    },
+    "fetched_at": "2026-11-01T03:14:38Z"
+  }
+]

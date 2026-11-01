@@ -1,0 +1,18 @@
+{
+  "model": "contextecho-qwen3.5-2b",
+  "created_at": "2026-11-01T03:17:50.85761176Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"votes\": [\n    {\n      \"cells\": {\n        \"C3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:architecture.expsearch.retriever_ckpt_path\",\n          \"evidence_quote\": \"retriever_ckpt_path: Path to the retriever checkpoint.\",\n          \"value\": \"single\"\n        },\n        \"D3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:TRACE_DIR\",\n          \"evidence_quote\": \"Directory for storing trace files.\",\n          \"value\": \"checkpoint\"\n        },\n        \"E1\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:architecture.expsearch\",\n          \"evidence_quote\": \"Configuration for example retrieval.\",\n          \"value\": \"self_critique, linters_typecheck, llm_judge\"\n        },\n        \"E3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:architecture.expsearch\",\n          \"evidence_quote\": \"Configuration for example retrieval.\",\n          \"value\": \"snapshot\"\n        },\n        \"G2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:environment\",\n          \"evidence_quote\": \"Settings related to the language model.\",\n          \"value\": \"full\"\n        },\n        \"G3\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:environment\",\n          \"evidence_quote\": \"Settings related to the language model.\",\n          \"value\": \"open\"\n        },\n        \"H2\": {\n          \"confidence\": \"high\",\n          \"evidence_locator\": \"config.json:TRACE_DIR\",\n          \"evidence_quote\": \"Directory for storing trace files.\",\n          \"value\": \"partial\"\n        }\n      },\n      \"record_id\": \"androidgen\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1898472294,
+  "load_duration": 1318423,
+  "prompt_eval_count": 8628,
+  "prompt_eval_cached_count": 3403,
+  "prompt_eval_duration": 252418000,
+  "eval_count": 444,
+  "eval_duration": 1330917000,
+  "reused_identical_input": true
+}
